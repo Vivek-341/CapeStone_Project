@@ -22,8 +22,6 @@ const PORT = 8000;
 const username = process.env.DB_USERNAME;
 const password = process.env.DB_PASSWORD;
 
-const URL= process.env.MONGODB_URL;
-
 
 Connection(username, password);
 
